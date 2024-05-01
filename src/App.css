@@ -8,7 +8,7 @@
   width: 24.563rem;
   height: 100vh;
   margin: 0 auto;
-  background-image: url(/src/images/Login-BG.jpg);
+  /* background-image: url(/src/images/Login-BG.jpg); */
   background-position: center;
   background-size: cover;
   padding: 1.875rem 1.25rem;
@@ -75,4 +75,11 @@ input[type=checkbox]{
   border: 0;
   top: 1.2rem;
   right: 0.8rem;
+}
+
+#fill-email,
+#wrong-email,
+#fill-pass,
+#wrong-pass {
+  display: none;
 }

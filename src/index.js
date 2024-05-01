@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginPage from "./Components/LoginPage";
+import ForgotPassword from "./Components/ForgotPassword";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/LoginPage",
     element: <LoginPage />,
+  },
+  {
+    path: "ForgotPassword",
+    element: <ForgotPassword />,
   },
 ]);
 root.render(
