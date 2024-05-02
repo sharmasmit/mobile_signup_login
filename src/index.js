@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginPage from "./Components/LoginPage";
 import ForgotPassword from "./Components/ForgotPassword";
+import SignUpPage from "./Components/SignUpPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     path: "ForgotPassword",
     element: <ForgotPassword />,
   },
+  {
+    path: "SignupPage",
+    element: <SignUpPage/>
+  }
 ]);
 root.render(
   <React.StrictMode>
